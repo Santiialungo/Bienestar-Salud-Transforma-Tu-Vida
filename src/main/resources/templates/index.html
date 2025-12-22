@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head}"></head>
+<body>
+    <!-- Navbar -->
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Transforma Tu Bienestar</h1>
+            <p>Descubre un camino personalizado hacia tu mejor versión física y mental</p>
+            <a href="#contacto" class="cta-button">Agenda Tu Consulta</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-image"></div>
+            <div class="about-content">
+                <h2>Sobre Mí</h2>
+                <p>Soy María rosales Vázquez, Terapeuta especializada en sanación cuántica y respiración consciente. Mi misión es acompañarte en tu proceso de sanación integral, conectando con tu propia sabiduría interior.</p>
+                <p>A través de métodos como LNT (La Nueva Terapia) y técnicas de respiración consciente, te ayudo a liberar bloqueos emocionales y físicos, restaurando la armonía en tu vida.</p>
+                <div class="credentials">
+                <p><strong>✓</strong> Terapeuta certificada en LNT - Método Schwiderski</p>
+                <p><strong>✓</strong> Diplomada en Código de la Cocreación - Respiración Consciente</p>
+                <p><strong>✓</strong> Master Facilitadora de Respiración Consciente</p>
+                <p><strong>✓</strong> Practitioner Access Consciousness Facelift</p>
+                <p><strong>✓</strong> Certificada en Esencias Sagradas de Egipto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <h2>Mis Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>LNT - La Nueva Terapia</h3>
+                <p>Método de sanación cuántica desarrollado por Philippe Schwiderski. Equilibramos cuerpos físicos y energéticos mediante movimientos corporales no conscientes que liberan traumas y restauran la armonía.</p>
+                <p><strong>Sesiones online disponibles.</strong></p>
+            </div>
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fas fa-lungs"></i>
+            </div>
+            <h3>Respiración Consciente</h3>
+            <p>Programa "Anima Breath" para reencontrarte con tu esencia y tu propia sabiduría. Basado en la escalera de emociones del Dr. David Hawkins. Desbloquea tu potencial a través de tu sistema respiratorio.</p>
+            <p><strong>Sesiones online disponibles.</strong></p>
+
+        </div>
+        
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fas fa-atom"></i>
+            </div>
+            <h3>Sanación Cuántica</h3>
+            <p>Conectamos con "La Fuente" para sanar desde un nivel energético y espiritual. Utilizando principios de física cuántica y bioenergética para equilibrar tu ser integral.</p>
+            <p><strong>Sesiones online disponibles.</strong></p>
+
+        </div>
+        
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fas fa-spa"></i>
+            </div>
+            <h3>Access Consciousness Facelift</h3>
+            <p>Técnica energética no invasiva que rejuvenece y revitaliza no solo tu rostro, sino todo tu ser. Una experiencia profunda de relajación y renovación celular.</p>
+            <p><strong>Sesiones online disponibles.</strong></p>
+
+        </div>
+    </div>
+</section>
+
+<!-- Testimonios -->
+<section class="testimonials" id="testimonios">
+    <h2>Experiencias De Nuestros Clientes</h2>
+    <div class="testimonials-carousel">
+        <!-- Flecha izquierda -->
+        <button class="carousel-arrow carousel-arrow-left" id="prevBtn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="testimonials-track">
+            <!-- Testimonio 1 - Argentina -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"La sesión de LNT fue transformadora. Sentí cómo mi cuerpo liberaba tensiones que llevaba años cargando. Mari tiene un don especial."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Laura M.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Buenos Aires, Argentina</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 2 - España -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Las sesiones de respiración consciente me ayudaron a reconectar conmigo misma. Es increíble el poder sanador de nuestra propia respiración."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Carolina S.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Madrid, España</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 3 - Colombia -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Trabajar con Mari a distancia fue maravilloso. La energía trasciende cualquier distancia física. Recomiendo totalmente su trabajo."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Marcela R.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Bogotá, Colombia</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 4 - España -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"La sanación cuántica superó todas mis expectativas. Sentí un cambio profundo no solo físico sino en mi forma de ver la vida."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Gabriela P.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Barcelona, España</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 5 - México -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"El facelift energético no solo rejuveneció mi rostro, también me hizo sentir más liviana y en paz. Una experiencia única."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Silvia L.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Ciudad de México, México</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 6 - España -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"María es una profesional excepcional. Su conocimiento y sensibilidad hacen que cada sesión sea una experiencia profunda de sanación."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Andrea F.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Valencia, España</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 7 - Argentina -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Después de años buscando, finalmente encontré un método que realmente funciona. La LNT cambió mi perspectiva de vida."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Daniela V.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Córdoba, Argentina</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 8 - España -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Las técnicas de respiración que aprendí con Mari las uso a diario. Me ayudan a mantenerme centrada y en paz."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Mónica G.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Sevilla, España</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 9 - Colombia -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Las sesiones online superaron mis expectativas. Desde la primera consulta sentí que estaba en buenas manos. Mari es auténtica y muy profesional."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Romina B.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Medellín, Colombia</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 10 - España -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Mari logró conectar con bloqueos emocionales que ni siquiera sabía que tenía. Su trabajo con LNT es profundo y sanador. Estoy muy agradecida."</p>
+                <div class="testimonial-author">
+                    <div class="author-image"></div>
+                    <div>
+                        <div class="author-name">Claudia T.</div>
+                        <div style="color: #7a6a5a; font-size: 0.9rem;">Málaga, España</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flecha derecha -->
+        <button class="carousel-arrow carousel-arrow-right" id="nextBtn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <!-- Los indicadores se generan automáticamente -->
+        </div>
+    </div>
+</section>
+
+    <!-- CTA Final -->
+    <section class="final-cta" id="contacto">
+        <h2>Comienza Tu Transformación Hoy</h2>
+        <p>Reserva tu consulta inicial y descubre cómo puedo ayudarte</p>
+        
+        <!-- Mensajes de éxito/error -->
+        <div th:if="${success}" class="success-message">
+            <p th:text="${success}">¡Gracias! Tu mensaje ha sido enviado correctamente.</p>
+        </div>
+        
+        <div th:if="${error}" class="error-alert">
+            <p th:text="${error}">Hubo un error al enviar tu mensaje. Intenta nuevamente.</p>
+        </div>
+        
+        <form class="contact-form" th:action="@{/contacto}" th:object="${contactForm}" method="post">
+            <div>
+                <input type="text" 
+                       th:field="*{nombre}" 
+                       th:class="${#fields.hasErrors('nombre')} ? 'error' : ''"
+                       placeholder="Tu nombre completo" 
+                       required>
+                <p class="error-message" th:if="${#fields.hasErrors('nombre')}" th:errors="*{nombre}"></p>
+            </div>
+            
+            <div>
+                <input type="email" 
+                       th:field="*{email}" 
+                       th:class="${#fields.hasErrors('email')} ? 'error' : ''"
+                       placeholder="Tu email" 
+                       required>
+                <p class="error-message" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+            </div>
+            
+            <div>
+                <input type="tel" 
+                       th:field="*{telefono}" 
+                       th:class="${#fields.hasErrors('telefono')} ? 'error' : ''"
+                       placeholder="Tu teléfono" 
+                       required>
+                <p class="error-message" th:if="${#fields.hasErrors('telefono')}" th:errors="*{telefono}"></p>
+            </div>
+            
+            <div>
+                <textarea rows="4" 
+                          th:field="*{mensaje}" 
+                          th:class="${#fields.hasErrors('mensaje')} ? 'error' : ''"
+                          placeholder="¿Qué te gustaría trabajar en tu sesión? Cuéntame sobre lo que buscas..." 
+                          required></textarea>
+                <p class="error-message" th:if="${#fields.hasErrors('mensaje')}" th:errors="*{mensaje}"></p>
+            </div>
+            
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+        <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.9;">
+        Sesiones disponibles online y a distancia | Atiendo en toda España y el mundo
+        </p>
+    </section>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/+34637354802?text=Hola%20Mari,%20me%20gustaría%20conocer%20más%20sobre%20tus%20sesiones%20de%20terapia" 
+       class="whatsapp-float" 
+       target="_blank" 
+       aria-label="Contáctame por WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512" width="30" height="30">
+        <path d="M380.9 97.1C339.3 55.5 282.4 32 222.8 32c-59.6 0-116.5 23.5-158.1 65.1C23.5 138.7 0 195.6 0 255.2c0 45 13.5 88.5 38.9 125.8L2.2 480l102.8-35.4c35.5 19.5 75.7 29.7 117.8 29.7 59.6 0 116.5-23.5 158.1-65.1 42.1-42.1 65.6-99 65.6-158.6 0-59.6-23.5-116.5-65.6-158.5zM222.8 438.6c-37.2 0-73.7-10-105.3-28.9l-7.5-4.5-61 21 21-59-4.9-7.6C45.6 326.5 32 291.7 32 255.2c0-105 85.4-190.3 190.8-190.3 50.9 0 98.7 19.8 134.7 55.7 35.9 35.9 55.7 83.7 55.7 134.7 0 105-85.3 190.3-190.4 190.3zm101.5-138.6c-5.6-2.8-33-16.2-38.2-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.7-3.2 3.7-6.5 4.2-12.1 1.4-5.6-2.8-23.5-8.6-44.8-27.5-16.5-14.7-27.5-32.8-30.7-38.4-3.2-5.6-.3-8.6 2.5-11.4 2.6-2.6 5.6-6.5 8.4-9.8 2.8-3.2 3.7-5.6 5.6-9.3 1.9-3.7.9-7-0.5-9.8-1.4-2.8-12.5-30-17.1-41.1-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-7-.2-10.7-.2s-9.8 1.4-14.9 7c-5.1 5.6-19.5 19-19.5 46.4 0 27.4 20 53.8 22.8 57.5 2.8 3.7 39.3 60 95.2 84.2 13.3 5.7 23.7 9.1 31.8 11.6 13.3 4.2 25.4 3.6 35 2.2 10.7-1.6 33-13.5 37.7-26.5 4.7-13 4.7-24.1 3.2-26.5-1.5-2.3-5.1-3.7-10.7-6.5z"/>
+      </svg>
+    </a>
+
+    <!-- Footer -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+
+    <!-- JavaScript -->
+    <script th:src="@{/js/animation.js}"></script>
+</body>
+</html>
